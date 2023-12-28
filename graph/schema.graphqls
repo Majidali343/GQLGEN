@@ -1,0 +1,14 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+
+
+type Query {
+  Jokes: [Joke!]!
+}
+
+type Joke {
+  id: ID!
+  text :String!
+}
